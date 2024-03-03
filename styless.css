@@ -1,8 +1,6 @@
 /**-- FUENTES --*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-
-
 /**-- VARIABLES GLOBALES --*/
 :root {
     --Font: #e5e5e5;
@@ -48,16 +46,17 @@ header .logo {
     height: 80px;
 }
 
-/**-- SCROLLBAR --*/
+
+/* *-- SCROLLBAR --*/
 /* Works on Firefox */
 * {
     scrollbar-width: thin;
-    scrollbar-color: var(--Dark-Blue) var(--Gree);
+    scrollbar-color: var(--Dark-Blue) var(--Gray);
 }
 
 /* Works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-    width: 12px;
+    width: 20px;
 }
 
 *::-webkit-scrollbar-track {
@@ -67,7 +66,7 @@ header .logo {
 *::-webkit-scrollbar-thumb {
     background-color: var(--Dark-Blue);
     border-radius: 10px;
-    border: 3px solid var(--Gree);
+    border: 5px solid var(--Gree);
 }
 
 /**-- PAGINA PRINCIPAL -- */
@@ -383,7 +382,7 @@ footer {
 
     .encriptarText {
         width: 90%;
-        font-size: 16px;
+        font-size: 19px;
         margin: 48px 0px 30px 0px;
     }
 
@@ -401,7 +400,7 @@ footer {
     }
 
     .textoAlerta {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .btnEncriptar,
